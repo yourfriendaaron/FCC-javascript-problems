@@ -7,4 +7,6 @@ function palindrome(str) {
   }
 };
 
-palindrome("eye");
+palindrome("racecar"); // returns true
+palindrome("racecars"); // returns false
+palindrome("A Man, A Plan, A Canal – Panama!"); // returns true
