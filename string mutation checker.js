@@ -8,9 +8,7 @@ function mutation(arr) {
     return x.toLowerCase();
   });
   for (i = 0; i < arr[1].length; i++) {
-    if (arr[0].indexOf(arr[1].charAt(i)) >= 0) {
-      continue;
-    } else {
+    if (arr[0].indexOf(arr[1].charAt(i)) < 0) {
       return false;
     }
   }
